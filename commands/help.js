@@ -17,10 +17,14 @@ module.exports = {
         })
 
         let embed = new MessageEmbed()
-        .setAuthor("Commands of "+client.user.username, "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
         .setColor("BLUE")
-        .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Hander by ItzCutePikachu#2006`)
+        .setColor("ff7500")
+        .setThumbnail("http://pm1.narvii.com/6967/2e5907afce1011b281c31260a06f0a1131e5d935r1-644-858v2_uhq.jpg")
+        .setTitle("Some fun commands for You: ")
+        .setDescription("You can use commands with  ``n!``")
+        .addField("**🎵Music🎵**", "_______________")
+        .addField("▶️play, 🔎search, ⏭️skip, ⏹️stop, 😀now playing, ⏸️pause, ⏯️resume, ⌚queue, 🎚️volume,")
+            .setFooter("made with ❤️ by NEKOJIN116");
 
         if(!args[0])return message.channel.send(embed)
         else {
