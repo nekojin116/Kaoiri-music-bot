@@ -21,7 +21,7 @@ module.exports = {
         .setColor("ff7500")
         .setThumbnail("http://pm1.narvii.com/6967/2e5907afce1011b281c31260a06f0a1131e5d935r1-644-858v2_uhq.jpg")
         .setTitle("Some fun commands for You: ")
-        .setDescription("You can use commands with  ``n!``")
+        .setDescription("You can use commands with  ``k!``")
         .addField("**🎵Music🎵**", "_______________")
         .addField("▶️play, 🔎search, ⏭️skip, ⏹️stop, 😀now playing, ⏸️pause, ⏯️resume, ⌚queue, 🎚️volume,")
             .setFooter("made with ❤️ by NEKOJIN116");
